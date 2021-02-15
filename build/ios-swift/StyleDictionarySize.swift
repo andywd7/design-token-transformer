@@ -3,7 +3,7 @@
 // StyleDictionarySize.swift
 //
 // Do not edit directly
-// Generated on Fri, 06 Nov 2020 20:33:02 GMT
+// Generated on Mon, 15 Feb 2021 09:01:35 GMT
 //
 
 import UIKit
@@ -109,4 +109,9 @@ public enum StyleDictionarySize {
     public static let frame = 32
     public static let rect = 32
     public static let shapeInComponent = 32
+    public static let fontSize = 12
+    public static let fontWeight = 400
+    public static let letterSpacing = 0
+    public static let paragraphIndent = 0
+    public static let paragraphSpacing = 0
 }

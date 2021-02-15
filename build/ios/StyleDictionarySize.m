@@ -3,7 +3,7 @@
 // StyleDictionarySize.m
 //
 // Do not edit directly
-// Generated on Fri, 06 Nov 2020 20:33:02 GMT
+// Generated on Mon, 15 Feb 2021 09:01:35 GMT
 //
 
 #import "StyleDictionarySize.h"
@@ -110,3 +110,8 @@ float const EffectInnerShadowMultiple2OffsetY = 2;
 float const EffectInnerShadowMultiple2Spread = 11;
 float const EffectLayerBlurRadius = 4;
 float const EffectBackgroundBlurRadius = 4;
+float const TextstyleFontSize = 12;
+float const TextstyleFontWeight = 400;
+float const TextstyleLetterSpacing = 0;
+float const TextstyleParagraphIndent = 0;
+float const TextstyleParagraphSpacing = 0;

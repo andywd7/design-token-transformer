@@ -186,5 +186,18 @@
   "EffectLayerBlurType": "layerBlur",
   "EffectLayerBlurRadius": 4,
   "EffectBackgroundBlurType": "backgroundBlur",
-  "EffectBackgroundBlurRadius": 4
+  "EffectBackgroundBlurRadius": 4,
+  "Test": "rgba(51, 51, 51, 1)",
+  "TextstyleFontSize": 12,
+  "TextstyleTextDecoration": "none",
+  "TextstyleFontFamily": "Roboto",
+  "TextstyleFontWeight": 400,
+  "TextstyleFontStyle": "normal",
+  "TextstyleFontStretch": "normal",
+  "TextstyleFontStyleOld": "Regular",
+  "TextstyleLetterSpacing": 0,
+  "TextstyleLineHeight": "normal",
+  "TextstyleParagraphIndent": 0,
+  "TextstyleParagraphSpacing": 0,
+  "TextstyleTextCase": "none"
 }

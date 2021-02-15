@@ -3,7 +3,7 @@
 // StyleDictionaryColor.swift
 //
 // Do not edit directly
-// Generated on Fri, 06 Nov 2020 20:33:02 GMT
+// Generated on Mon, 15 Feb 2021 09:01:35 GMT
 //
 
 import UIKit
@@ -34,4 +34,5 @@ public enum StyleDictionaryColor {
     public static let singleWithMultipleColorStopsStops1Color = rgba(255, 138, 0, 1)
     public static let singleWithMultipleColorStopsStops2Color = rgba(255, 46, 0, 1)
     public static let singleWithMultipleColorStopsStops3Color = rgba(255, 0, 0, 1)
+    public static let  = rgba(51, 51, 51, 1)
 }

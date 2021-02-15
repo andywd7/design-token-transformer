@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 06 Nov 2020 20:33:02 GMT
+ * Generated on Mon, 15 Feb 2021 09:01:35 GMT
  */
 
 :root {
@@ -192,4 +192,17 @@
   --effect-layer-blur-radius: 4;
   --effect-background-blur-type: backgroundBlur;
   --effect-background-blur-radius: 4;
+  --test: rgba(51, 51, 51, 1);
+  --textstyle-font-size: 12;
+  --textstyle-text-decoration: none;
+  --textstyle-font-family: Roboto;
+  --textstyle-font-weight: 400;
+  --textstyle-font-style: normal;
+  --textstyle-font-stretch: normal;
+  --textstyle-font-style-old: Regular;
+  --textstyle-letter-spacing: 0;
+  --textstyle-line-height: normal;
+  --textstyle-paragraph-indent: 0;
+  --textstyle-paragraph-spacing: 0;
+  --textstyle-text-case: none;
 }

@@ -3,7 +3,7 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Fri, 06 Nov 2020 20:33:02 GMT
+// Generated on Mon, 15 Feb 2021 09:01:35 GMT
 //
 
 
@@ -198,4 +198,17 @@ public class StyleDictionary {
     public static let sizesFrame = 32
     public static let sizesRect = 32
     public static let sizesShapeInComponent = 32
+    public static let test = rgba(51, 51, 51, 1)
+    public static let textstyleFontFamily = Roboto
+    public static let textstyleFontSize = 12
+    public static let textstyleFontStretch = normal
+    public static let textstyleFontStyle = normal
+    public static let textstyleFontStyleOld = Regular
+    public static let textstyleFontWeight = 400
+    public static let textstyleLetterSpacing = 0
+    public static let textstyleLineHeight = normal
+    public static let textstyleParagraphIndent = 0
+    public static let textstyleParagraphSpacing = 0
+    public static let textstyleTextCase = none
+    public static let textstyleTextDecoration = none
 }
