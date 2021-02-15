@@ -3,7 +3,7 @@
 // StyleDictionaryColor.swift
 //
 // Do not edit directly
-// Generated on Mon, 15 Feb 2021 17:21:02 GMT
+// Generated on Mon, 15 Feb 2021 22:30:19 GMT
 //
 
 import UIKit
@@ -40,6 +40,11 @@ public enum StyleDictionaryColor {
     public static let cyan70 = rgba(13, 75, 141, 1)
     public static let cyan80 = rgba(6, 52, 97, 1)
     public static let cyan90 = rgba(4, 35, 63, 1)
+    public static let componentColor = rgba(0, 0, 0, 0.2)
+    public static let modalColor = rgba(0, 0, 0, 0.2)
+    public static let navigationColor = rgba(0, 0, 0, 0.2)
+    public static let notificationColor = rgba(0, 0, 0, 0.2)
+    public static let temporaryColor = rgba(0, 0, 0, 0.2)
     public static let dropShadowSingleColor = rgba(0, 0, 0, 0.25)
     public static let innerShadowMultiple0Color = rgba(0, 0, 0, 0.25)
     public static let innerShadowMultiple1Color = rgba(0, 0, 0, 1)

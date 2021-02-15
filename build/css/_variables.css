@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 15 Feb 2021 17:21:02 GMT
+ * Generated on Mon, 15 Feb 2021 22:30:19 GMT
  */
 
 :root {
@@ -192,184 +192,18 @@
   --effect-layer-blur-radius: 4;
   --effect-background-blur-type: backgroundBlur;
   --effect-background-blur-radius: 4;
-  --depth-modal: rgba(255, 255, 255, 1);
-  --depth-notification: rgba(255, 255, 255, 1);
-  --depth-navigation: rgba(255, 255, 255, 1);
-  --depth-temporary: rgba(255, 255, 255, 1);
-  --depth-component: rgba(255, 255, 255, 1);
-  --theme-default-interaction-hover-tertiary: rgba(16, 100, 254, 1);
-  --theme-default-interaction-active-tertiary: rgba(0, 45, 158, 1);
-  --theme-default-interaction-disabled-03: rgba(112, 112, 112, 1);
-  --theme-default-interaction-disabled-02: rgba(168, 168, 168, 1);
-  --theme-default-interaction-disabled-01: rgba(224, 224, 224, 1);
-  --theme-default-interaction-visited-link: rgba(189, 148, 255, 1);
-  --theme-default-interaction-skeleton-02: rgba(82, 82, 82, 1);
-  --theme-default-interaction-skeleton-01: rgba(66, 66, 66, 1);
-  --theme-default-interaction-highlight: rgba(209, 227, 255, 1);
-  --theme-default-interaction-selected-ui: rgba(224, 224, 224, 1);
-  --theme-default-interaction-active-danger: rgba(119, 14, 19, 1);
-  --theme-default-interaction-active-ui: rgba(112, 112, 112, 1);
-  --theme-default-interaction-active-standard: rgba(56, 56, 56, 1);
-  --theme-default-interaction-active-secondary: rgba(0, 45, 158, 1);
-  --theme-default-interaction-active-primary: rgba(0, 45, 158, 1);
-  --theme-default-interaction-inverse-hover-ui: rgba(229, 229, 229, 1);
-  --theme-default-interaction-hover-row: rgba(66, 66, 66, 1);
-  --theme-default-interaction-hover-danger: rgba(163, 25, 32, 1);
-  --theme-default-interaction-hover-selected-ui: rgba(92, 92, 92, 1);
-  --theme-default-interaction-hover-ui: rgba(66, 66, 66, 1);
-  --theme-default-interaction-hover-standard: rgba(105, 105, 105, 1);
-  --theme-default-interaction-hover-secondary: rgba(0, 68, 204, 1);
-  --theme-default-interaction-hover-primary-text: rgba(168, 202, 255, 1);
-  --theme-default-interaction-hover-primary: rgba(0, 45, 158, 1);
-  --theme-default-interaction-inverse-focus-ui: rgba(255, 255, 255, 1);
-  --theme-default-interaction-focus: rgba(16, 100, 254, 1);
-  --theme-default-core-decorative-01: rgba(220, 224, 229, 1);
-  --theme-default-core-button-separator: rgba(220, 224, 229, 1);
-  --theme-default-core-overlay-01: rgba(23, 23, 23, 0.7);
-  --theme-default-core-inverse-support-04: rgba(71, 139, 255, 1);
-  --theme-default-core-inverse-support-03: rgba(255, 205, 117, 1);
-  --theme-default-core-inverse-support-02: rgba(65, 190, 100, 1);
-  --theme-default-core-inverse-support-01: rgba(250, 76, 85, 1);
-  --theme-default-core-support-04: rgba(0, 68, 204, 1);
-  --theme-default-core-support-03: rgba(251, 187, 75, 1);
-  --theme-default-core-support-02: rgba(56, 56, 56, 1);
-  --theme-default-core-support-01: rgba(220, 30, 39, 1);
-  --theme-default-core-inverse-02: rgba(56, 56, 56, 1);
-  --theme-default-core-inverse-01: rgba(255, 255, 255, 1);
-  --theme-default-core-field-02: rgba(255, 255, 255, 1);
-  --theme-default-core-field-01: rgba(245, 245, 245, 1);
-  --theme-default-core-icon-03: rgba(255, 255, 255, 1);
-  --theme-default-core-icon-02: rgba(82, 82, 82, 1);
-  --theme-default-core-icon-01: rgba(23, 23, 23, 1);
-  --theme-default-core-inverse-link: rgba(122, 171, 255, 1);
-  --theme-default-core-link-01: rgba(16, 100, 254, 1);
-  --theme-default-core-text-error: rgba(220, 30, 39, 1);
-  --theme-default-core-text-05: rgba(112, 112, 112, 1);
-  --theme-default-core-text-04: rgba(255, 255, 255, 1);
-  --theme-default-core-text-03: rgba(161, 168, 175, 1);
-  --theme-default-core-text-02: rgba(105, 112, 119, 1);
-  --theme-default-core-text-01: rgba(17, 21, 24, 1);
-  --theme-default-core-ui-05: rgba(17, 21, 24, 1);
-  --theme-default-core-ui-04: rgba(140, 140, 140, 1);
-  --theme-default-core-ui-03: rgba(220, 224, 229, 1);
-  --theme-default-core-ui-02: rgba(255, 255, 255, 1);
-  --theme-default-core-ui-01: rgba(242, 244, 248, 1);
-  --theme-default-core-danger: rgba(216, 34, 46, 1);
-  --theme-default-core-interactive-04: rgba(16, 100, 254, 1);
-  --theme-default-core-interactive-03: rgba(16, 100, 254, 1);
-  --theme-default-core-interactive-02: rgba(53, 59, 65, 1);
-  --theme-default-core-interactive-01: rgba(16, 100, 254, 1);
-  --theme-default-core-ui-background: rgba(255, 255, 255, 1);
-  --grey-plain-hover-grey-plain-hover-10: rgba(229, 229, 229, 1);
-  --grey-plain-hover-grey-plain-hover-20: rgba(212, 212, 212, 1);
-  --grey-plain-hover-grey-plain-hover-30: rgba(186, 186, 186, 1);
-  --grey-plain-hover-grey-plain-hover-40: rgba(158, 158, 158, 1);
-  --grey-plain-hover-grey-plain-hover-50: rgba(133, 133, 133, 1);
-  --grey-plain-hover-grey-plain-hover-60: rgba(105, 105, 105, 1);
-  --grey-plain-hover-grey-plain-hover-70: rgba(92, 92, 92, 1);
-  --grey-plain-hover-grey-plain-hover-80: rgba(66, 66, 66, 1);
-  --grey-plain-hover-grey-plain-hover-90: rgba(48, 48, 48, 1);
-  --grey-plain-hover-grey-plain-hover-100: rgba(33, 33, 33, 1);
-  --grey-plain-grey-plain-10: rgba(245, 245, 245, 1);
-  --grey-plain-grey-plain-20: rgba(224, 224, 224, 1);
-  --grey-plain-grey-plain-30: rgba(199, 199, 199, 1);
-  --grey-plain-grey-plain-40: rgba(168, 168, 168, 1);
-  --grey-plain-grey-plain-50: rgba(140, 140, 140, 1);
-  --grey-plain-grey-plain-70: rgba(82, 82, 82, 1);
-  --grey-plain-grey-plain-60: rgba(112, 112, 112, 1);
-  --grey-plain-grey-plain-80: rgba(56, 56, 56, 1);
-  --grey-plain-grey-plain-90: rgba(38, 38, 38, 1);
-  --grey-plain-grey-plain-100: rgba(23, 23, 23, 1);
-  --grey-hover-10: rgba(225, 229, 234, 1);
-  --grey-hover-20: rgba(195, 200, 208, 1);
-  --grey-hover-30: rgba(170, 174, 182, 1);
-  --grey-hover-40: rgba(143, 150, 158, 1);
-  --grey-hover-50: rgba(115, 123, 130, 1);
-  --grey-hover-60: rgba(96, 102, 108, 1);
-  --grey-hover-70: rgba(91, 97, 103, 1);
-  --grey-hover-80: rgba(71, 77, 82, 1);
-  --grey-hover-90: rgba(48, 54, 59, 1);
-  --grey-hover-100: rgba(39, 44, 48, 1);
-  --yellow-yellow-10: rgba(255, 255, 241, 1);
-  --yellow-yellow-20: rgba(252, 251, 209, 1);
-  --yellow-yellow-30: rgba(255, 254, 168, 1);
-  --yellow-yellow-40: rgba(255, 253, 126, 1);
-  --yellow-yellow-50: rgba(251, 249, 91, 1);
-  --yellow-yellow-60: rgba(245, 243, 54, 1);
-  --yellow-yellow-70: rgba(162, 163, 43, 1);
-  --yellow-yellow-80: rgba(119, 118, 28, 1);
-  --yellow-yellow-90: rgba(78, 77, 13, 1);
-  --yellow-yellow-100: rgba(43, 43, 11, 1);
-  --orange-orange-10: rgba(255, 246, 230, 1);
-  --orange-orange-20: rgba(251, 235, 208, 1);
-  --orange-orange-30: rgba(254, 220, 166, 1);
-  --orange-orange-40: rgba(254, 204, 123, 1);
-  --orange-orange-50: rgba(249, 186, 86, 1);
-  --orange-orange-60: rgba(243, 156, 40, 1);
-  --orange-orange-70: rgba(164, 113, 37, 1);
-  --orange-orange-80: rgba(116, 79, 23, 1);
-  --orange-orange-90: rgba(78, 51, 10, 1);
-  --orange-orange-100: rgba(44, 31, 10, 1);
-  --red-red-10: rgba(255, 241, 241, 1);
-  --red-red-20: rgba(254, 215, 217, 1);
-  --red-red-30: rgba(253, 179, 185, 1);
-  --red-red-40: rgba(253, 132, 139, 1);
-  --red-red-50: rgba(247, 79, 90, 1);
-  --red-red-60: rgba(216, 34, 47, 1);
-  --red-red-70: rgba(160, 27, 36, 1);
-  --red-red-80: rgba(116, 16, 23, 1);
-  --red-red-90: rgba(81, 5, 11, 1);
-  --red-red-100: rgba(44, 7, 10, 1);
-  --green-green-10: rgba(222, 251, 230, 1);
-  --green-green-20: rgba(167, 240, 186, 1);
-  --green-green-30: rgba(111, 220, 140, 1);
-  --green-green-40: rgba(66, 190, 101, 1);
-  --green-green-50: rgba(36, 161, 72, 1);
-  --green-green-60: rgba(25, 128, 56, 1);
-  --green-green-70: rgba(14, 96, 39, 1);
-  --green-green-80: rgba(4, 67, 23, 1);
-  --green-green-90: rgba(2, 45, 13, 1);
-  --green-green-100: rgba(7, 25, 8, 1);
-  --magenta-magenta-10: rgba(255, 240, 247, 1);
-  --magenta-magenta-20: rgba(254, 215, 232, 1);
-  --magenta-magenta-30: rgba(253, 176, 210, 1);
-  --magenta-magenta-40: rgba(253, 128, 182, 1);
-  --magenta-magenta-50: rgba(236, 86, 150, 1);
-  --magenta-magenta-60: rgba(207, 44, 113, 1);
-  --magenta-magenta-70: rgba(157, 28, 83, 1);
-  --magenta-magenta-80: rgba(115, 13, 55, 1);
-  --magenta-magenta-90: rgba(80, 4, 36, 1);
-  --magenta-magenta-100: rgba(41, 11, 24, 1);
-  --cyan-cyan-10: rgba(226, 245, 255, 1);
-  --cyan-cyan-20: rgba(180, 226, 254, 1);
-  --cyan-cyan-30: rgba(123, 201, 253, 1);
-  --cyan-cyan-40: rgba(55, 169, 252, 1);
-  --cyan-cyan-50: rgba(32, 136, 226, 1);
-  --cyan-cyan-60: rgba(19, 104, 185, 1);
-  --cyan-cyan-70: rgba(13, 75, 141, 1);
-  --cyan-cyan-80: rgba(6, 52, 97, 1);
-  --cyan-cyan-90: rgba(4, 35, 63, 1);
-  --cyan-cyan-100: rgba(6, 23, 39, 1);
-  --purple-purple-10: rgba(246, 242, 255, 1);
-  --purple-purple-20: rgba(232, 219, 254, 1);
-  --purple-purple-30: rgba(212, 189, 253, 1);
-  --purple-purple-40: rgba(189, 152, 252, 1);
-  --purple-purple-50: rgba(164, 115, 252, 1);
-  --purple-purple-60: rgba(137, 73, 248, 1);
-  --purple-purple-70: rgba(105, 50, 193, 1);
-  --purple-purple-80: rgba(73, 35, 137, 1);
-  --purple-purple-90: rgba(49, 23, 92, 1);
-  --purple-purple-100: rgba(28, 16, 47, 1);
-  --teal-teal-10: rgba(217, 251, 251, 1);
-  --teal-teal-20: rgba(158, 240, 240, 1);
-  --teal-teal-30: rgba(61, 219, 217, 1);
-  --teal-teal-40: rgba(8, 189, 186, 1);
-  --teal-teal-50: rgba(0, 157, 154, 1);
-  --teal-teal-60: rgba(0, 125, 121, 1);
-  --teal-teal-70: rgba(0, 93, 93, 1);
-  --teal-teal-80: rgba(0, 65, 68, 1);
-  --teal-teal-90: rgba(2, 43, 48, 1);
-  --teal-teal-100: rgba(8, 26, 28, 1);
+  --grey-grey-100: rgba(18, 22, 25, 1);
+  --grey-grey-90: rgba(33, 39, 42, 1);
+  --grey-grey-80: rgba(52, 58, 63, 1);
+  --grey-grey-70: rgba(77, 83, 88, 1);
+  --grey-grey-60: rgba(105, 112, 119, 1);
+  --grey-grey-50: rgba(135, 141, 150, 1);
+  --grey-grey-40: rgba(162, 169, 176, 1);
+  --grey-grey-30: rgba(193, 199, 205, 1);
+  --grey-grey-20: rgba(221, 225, 230, 1);
+  --grey-grey-10: rgba(242, 244, 248, 1);
+  --base-black: rgba(0, 0, 0, 1);
+  --base-white: rgba(255, 255, 255, 1);
   --blue-10: rgba(235, 244, 255, 1);
   --blue-20: rgba(209, 227, 255, 1);
   --blue-30: rgba(168, 202, 255, 1);
@@ -380,256 +214,287 @@
   --blue-80: rgba(0, 45, 158, 1);
   --blue-90: rgba(0, 29, 107, 1);
   --blue-100: rgba(0, 18, 66, 1);
-  --base-white: rgba(255, 255, 255, 1);
-  --base-black: rgba(0, 0, 0, 1);
-  --grey-grey-10: rgba(242, 244, 248, 1);
-  --grey-grey-20: rgba(221, 225, 230, 1);
-  --grey-grey-30: rgba(193, 199, 205, 1);
-  --grey-grey-40: rgba(162, 169, 176, 1);
-  --grey-grey-50: rgba(135, 141, 150, 1);
-  --grey-grey-60: rgba(105, 112, 119, 1);
-  --grey-grey-70: rgba(77, 83, 88, 1);
-  --grey-grey-80: rgba(52, 58, 63, 1);
-  --grey-grey-90: rgba(33, 39, 42, 1);
-  --grey-grey-100: rgba(18, 22, 25, 1);
-  --default-code-02-font-size: 14;
-  --default-code-02-text-decoration: none;
-  --default-code-02-font-family: Roboto Mono;
-  --default-code-02-font-weight: 400;
-  --default-code-02-font-style: normal;
-  --default-code-02-font-stretch: normal;
-  --default-code-02-font-style-old: Regular;
-  --default-code-02-letter-spacing: 0;
-  --default-code-02-line-height: 20;
-  --default-code-02-paragraph-indent: 0;
-  --default-code-02-paragraph-spacing: 0;
-  --default-code-02-text-case: none;
-  --default-code-01-font-size: 12;
-  --default-code-01-text-decoration: none;
-  --default-code-01-font-family: Roboto Mono;
-  --default-code-01-font-weight: 400;
-  --default-code-01-font-style: normal;
-  --default-code-01-font-stretch: normal;
-  --default-code-01-font-style-old: Regular;
-  --default-code-01-letter-spacing: 0;
-  --default-code-01-line-height: 16;
-  --default-code-01-paragraph-indent: 0;
-  --default-code-01-paragraph-spacing: 0;
-  --default-code-01-text-case: none;
-  --default-caption-01-bold-font-size: 12;
-  --default-caption-01-bold-text-decoration: none;
-  --default-caption-01-bold-font-family: Roboto;
-  --default-caption-01-bold-font-weight: 500;
-  --default-caption-01-bold-font-style: normal;
-  --default-caption-01-bold-font-stretch: normal;
-  --default-caption-01-bold-font-style-old: Medium;
-  --default-caption-01-bold-letter-spacing: 0;
-  --default-caption-01-bold-line-height: 16;
-  --default-caption-01-bold-paragraph-indent: 0;
-  --default-caption-01-bold-paragraph-spacing: 0;
-  --default-caption-01-bold-text-case: none;
-  --default-body-long-02-bold-font-size: 16;
-  --default-body-long-02-bold-text-decoration: none;
-  --default-body-long-02-bold-font-family: Roboto;
-  --default-body-long-02-bold-font-weight: 500;
-  --default-body-long-02-bold-font-style: normal;
-  --default-body-long-02-bold-font-stretch: normal;
-  --default-body-long-02-bold-font-style-old: Medium;
-  --default-body-long-02-bold-letter-spacing: 0;
-  --default-body-long-02-bold-line-height: 24;
-  --default-body-long-02-bold-paragraph-indent: 0;
-  --default-body-long-02-bold-paragraph-spacing: 0;
-  --default-body-long-02-bold-text-case: none;
-  --default-body-long-01-bold-font-size: 14;
-  --default-body-long-01-bold-text-decoration: none;
-  --default-body-long-01-bold-font-family: Roboto;
-  --default-body-long-01-bold-font-weight: 500;
-  --default-body-long-01-bold-font-style: normal;
-  --default-body-long-01-bold-font-stretch: normal;
-  --default-body-long-01-bold-font-style-old: Medium;
-  --default-body-long-01-bold-letter-spacing: 0;
-  --default-body-long-01-bold-line-height: 20;
-  --default-body-long-01-bold-paragraph-indent: 0;
-  --default-body-long-01-bold-paragraph-spacing: 0;
-  --default-body-long-01-bold-text-case: none;
-  --default-body-short-02-bold-font-size: 16;
-  --default-body-short-02-bold-text-decoration: none;
-  --default-body-short-02-bold-font-family: Roboto;
-  --default-body-short-02-bold-font-weight: 500;
-  --default-body-short-02-bold-font-style: normal;
-  --default-body-short-02-bold-font-stretch: normal;
-  --default-body-short-02-bold-font-style-old: Medium;
-  --default-body-short-02-bold-letter-spacing: 0;
-  --default-body-short-02-bold-line-height: 22;
-  --default-body-short-02-bold-paragraph-indent: 0;
-  --default-body-short-02-bold-paragraph-spacing: 0;
-  --default-body-short-02-bold-text-case: none;
-  --default-body-short-01-bold-font-size: 14;
-  --default-body-short-01-bold-text-decoration: none;
-  --default-body-short-01-bold-font-family: Roboto;
-  --default-body-short-01-bold-font-weight: 500;
-  --default-body-short-01-bold-font-style: normal;
-  --default-body-short-01-bold-font-stretch: normal;
-  --default-body-short-01-bold-font-style-old: Medium;
-  --default-body-short-01-bold-letter-spacing: 0;
-  --default-body-short-01-bold-line-height: 18;
-  --default-body-short-01-bold-paragraph-indent: 0;
-  --default-body-short-01-bold-paragraph-spacing: 0;
-  --default-body-short-01-bold-text-case: none;
-  --default-label-01-font-size: 12;
-  --default-label-01-text-decoration: none;
-  --default-label-01-font-family: Roboto;
-  --default-label-01-font-weight: 400;
-  --default-label-01-font-style: normal;
-  --default-label-01-font-stretch: normal;
-  --default-label-01-font-style-old: Regular;
-  --default-label-01-letter-spacing: 0;
-  --default-label-01-line-height: 16;
-  --default-label-01-paragraph-indent: 0;
-  --default-label-01-paragraph-spacing: 0;
-  --default-label-01-text-case: none;
-  --default-caption-01-font-size: 12;
-  --default-caption-01-text-decoration: none;
-  --default-caption-01-font-family: Roboto;
-  --default-caption-01-font-weight: 400;
-  --default-caption-01-font-style: normal;
-  --default-caption-01-font-stretch: normal;
-  --default-caption-01-font-style-old: Regular;
-  --default-caption-01-letter-spacing: 0;
-  --default-caption-01-line-height: 16;
-  --default-caption-01-paragraph-indent: 0;
-  --default-caption-01-paragraph-spacing: 0;
-  --default-caption-01-text-case: none;
-  --default-heading-07-font-size: 54;
-  --default-heading-07-text-decoration: none;
-  --default-heading-07-font-family: Roboto;
-  --default-heading-07-font-weight: 400;
-  --default-heading-07-font-style: normal;
-  --default-heading-07-font-stretch: normal;
-  --default-heading-07-font-style-old: Regular;
-  --default-heading-07-letter-spacing: 0;
-  --default-heading-07-line-height: 64;
-  --default-heading-07-paragraph-indent: 0;
-  --default-heading-07-paragraph-spacing: 0;
-  --default-heading-07-text-case: none;
-  --default-heading-06-font-size: 42;
-  --default-heading-06-text-decoration: none;
-  --default-heading-06-font-family: Roboto;
-  --default-heading-06-font-weight: 400;
-  --default-heading-06-font-style: normal;
-  --default-heading-06-font-stretch: normal;
-  --default-heading-06-font-style-old: Regular;
-  --default-heading-06-letter-spacing: 0;
-  --default-heading-06-line-height: 50;
-  --default-heading-06-paragraph-indent: 0;
-  --default-heading-06-paragraph-spacing: 0;
-  --default-heading-06-text-case: none;
-  --default-heading-05-font-size: 32;
-  --default-heading-05-text-decoration: none;
-  --default-heading-05-font-family: Roboto;
-  --default-heading-05-font-weight: 400;
-  --default-heading-05-font-style: normal;
-  --default-heading-05-font-stretch: normal;
-  --default-heading-05-font-style-old: Regular;
-  --default-heading-05-letter-spacing: 0;
-  --default-heading-05-line-height: 40;
-  --default-heading-05-paragraph-indent: 0;
-  --default-heading-05-paragraph-spacing: 0;
-  --default-heading-05-text-case: none;
-  --default-heading-04-font-size: 28;
-  --default-heading-04-text-decoration: none;
-  --default-heading-04-font-family: Roboto;
-  --default-heading-04-font-weight: 400;
-  --default-heading-04-font-style: normal;
-  --default-heading-04-font-stretch: normal;
-  --default-heading-04-font-style-old: Regular;
-  --default-heading-04-letter-spacing: 0;
-  --default-heading-04-line-height: 36;
-  --default-heading-04-paragraph-indent: 0;
-  --default-heading-04-paragraph-spacing: 0;
-  --default-heading-04-text-case: none;
-  --default-heading-03-font-size: 20;
-  --default-heading-03-text-decoration: none;
-  --default-heading-03-font-family: Roboto;
-  --default-heading-03-font-weight: 400;
-  --default-heading-03-font-style: normal;
-  --default-heading-03-font-stretch: normal;
-  --default-heading-03-font-style-old: Regular;
-  --default-heading-03-letter-spacing: 0;
-  --default-heading-03-line-height: 26;
-  --default-heading-03-paragraph-indent: 0;
-  --default-heading-03-paragraph-spacing: 0;
-  --default-heading-03-text-case: none;
-  --default-heading-02-font-size: 16;
-  --default-heading-02-text-decoration: none;
-  --default-heading-02-font-family: Roboto;
-  --default-heading-02-font-weight: 400;
-  --default-heading-02-font-style: normal;
-  --default-heading-02-font-stretch: normal;
-  --default-heading-02-font-style-old: Regular;
-  --default-heading-02-letter-spacing: 0;
-  --default-heading-02-line-height: 22;
-  --default-heading-02-paragraph-indent: 0;
-  --default-heading-02-paragraph-spacing: 0;
-  --default-heading-02-text-case: none;
-  --default-heading-01-font-size: 14;
-  --default-heading-01-text-decoration: none;
-  --default-heading-01-font-family: Roboto;
-  --default-heading-01-font-weight: 400;
-  --default-heading-01-font-style: normal;
-  --default-heading-01-font-stretch: normal;
-  --default-heading-01-font-style-old: Regular;
-  --default-heading-01-letter-spacing: 0;
-  --default-heading-01-line-height: 18;
-  --default-heading-01-paragraph-indent: 0;
-  --default-heading-01-paragraph-spacing: 0;
-  --default-heading-01-text-case: none;
-  --default-body-long-02-font-size: 16;
-  --default-body-long-02-text-decoration: none;
-  --default-body-long-02-font-family: Roboto;
-  --default-body-long-02-font-weight: 400;
-  --default-body-long-02-font-style: normal;
-  --default-body-long-02-font-stretch: normal;
-  --default-body-long-02-font-style-old: Regular;
-  --default-body-long-02-letter-spacing: 0;
-  --default-body-long-02-line-height: 24;
-  --default-body-long-02-paragraph-indent: 0;
-  --default-body-long-02-paragraph-spacing: 0;
-  --default-body-long-02-text-case: none;
-  --default-body-long-01-font-size: 14;
-  --default-body-long-01-text-decoration: none;
-  --default-body-long-01-font-family: Roboto;
-  --default-body-long-01-font-weight: 400;
-  --default-body-long-01-font-style: normal;
-  --default-body-long-01-font-stretch: normal;
-  --default-body-long-01-font-style-old: Regular;
-  --default-body-long-01-letter-spacing: 0;
-  --default-body-long-01-line-height: 20;
-  --default-body-long-01-paragraph-indent: 0;
-  --default-body-long-01-paragraph-spacing: 0;
-  --default-body-long-01-text-case: none;
-  --default-body-short-02-font-size: 16;
-  --default-body-short-02-text-decoration: none;
-  --default-body-short-02-font-family: Roboto;
-  --default-body-short-02-font-weight: 400;
-  --default-body-short-02-font-style: normal;
-  --default-body-short-02-font-stretch: normal;
-  --default-body-short-02-font-style-old: Regular;
-  --default-body-short-02-letter-spacing: 0;
-  --default-body-short-02-line-height: 22;
-  --default-body-short-02-paragraph-indent: 0;
-  --default-body-short-02-paragraph-spacing: 0;
-  --default-body-short-02-text-case: none;
+  --teal-teal-100: rgba(8, 26, 28, 1);
+  --teal-teal-90: rgba(2, 43, 48, 1);
+  --teal-teal-80: rgba(0, 65, 68, 1);
+  --teal-teal-70: rgba(0, 93, 93, 1);
+  --teal-teal-60: rgba(0, 125, 121, 1);
+  --teal-teal-50: rgba(0, 157, 154, 1);
+  --teal-teal-40: rgba(8, 189, 186, 1);
+  --teal-teal-30: rgba(61, 219, 217, 1);
+  --teal-teal-20: rgba(158, 240, 240, 1);
+  --teal-teal-10: rgba(217, 251, 251, 1);
+  --purple-purple-100: rgba(28, 16, 47, 1);
+  --purple-purple-90: rgba(49, 23, 92, 1);
+  --purple-purple-80: rgba(73, 35, 137, 1);
+  --purple-purple-70: rgba(105, 50, 193, 1);
+  --purple-purple-60: rgba(137, 73, 248, 1);
+  --purple-purple-50: rgba(164, 115, 252, 1);
+  --purple-purple-40: rgba(189, 152, 252, 1);
+  --purple-purple-30: rgba(212, 189, 253, 1);
+  --purple-purple-20: rgba(232, 219, 254, 1);
+  --purple-purple-10: rgba(246, 242, 255, 1);
+  --cyan-cyan-100: rgba(6, 23, 39, 1);
+  --cyan-cyan-90: rgba(4, 35, 63, 1);
+  --cyan-cyan-80: rgba(6, 52, 97, 1);
+  --cyan-cyan-70: rgba(13, 75, 141, 1);
+  --cyan-cyan-60: rgba(19, 104, 185, 1);
+  --cyan-cyan-50: rgba(32, 136, 226, 1);
+  --cyan-cyan-40: rgba(55, 169, 252, 1);
+  --cyan-cyan-30: rgba(123, 201, 253, 1);
+  --cyan-cyan-20: rgba(180, 226, 254, 1);
+  --cyan-cyan-10: rgba(226, 245, 255, 1);
+  --magenta-magenta-100: rgba(41, 11, 24, 1);
+  --magenta-magenta-90: rgba(80, 4, 36, 1);
+  --magenta-magenta-80: rgba(115, 13, 55, 1);
+  --magenta-magenta-70: rgba(157, 28, 83, 1);
+  --magenta-magenta-60: rgba(207, 44, 113, 1);
+  --magenta-magenta-50: rgba(236, 86, 150, 1);
+  --magenta-magenta-40: rgba(253, 128, 182, 1);
+  --magenta-magenta-30: rgba(253, 176, 210, 1);
+  --magenta-magenta-20: rgba(254, 215, 232, 1);
+  --magenta-magenta-10: rgba(255, 240, 247, 1);
+  --green-green-100: rgba(7, 25, 8, 1);
+  --green-green-90: rgba(2, 45, 13, 1);
+  --green-green-80: rgba(4, 67, 23, 1);
+  --green-green-70: rgba(14, 96, 39, 1);
+  --green-green-60: rgba(25, 128, 56, 1);
+  --green-green-50: rgba(36, 161, 72, 1);
+  --green-green-40: rgba(66, 190, 101, 1);
+  --green-green-30: rgba(111, 220, 140, 1);
+  --green-green-20: rgba(167, 240, 186, 1);
+  --green-green-10: rgba(222, 251, 230, 1);
+  --red-red-100: rgba(44, 7, 10, 1);
+  --red-red-90: rgba(81, 5, 11, 1);
+  --red-red-80: rgba(116, 16, 23, 1);
+  --red-red-70: rgba(160, 27, 36, 1);
+  --red-red-60: rgba(216, 34, 47, 1);
+  --red-red-50: rgba(247, 79, 90, 1);
+  --red-red-40: rgba(253, 132, 139, 1);
+  --red-red-30: rgba(253, 179, 185, 1);
+  --red-red-20: rgba(254, 215, 217, 1);
+  --red-red-10: rgba(255, 241, 241, 1);
+  --orange-orange-100: rgba(44, 31, 10, 1);
+  --orange-orange-90: rgba(78, 51, 10, 1);
+  --orange-orange-80: rgba(116, 79, 23, 1);
+  --orange-orange-70: rgba(164, 113, 37, 1);
+  --orange-orange-60: rgba(243, 156, 40, 1);
+  --orange-orange-50: rgba(249, 186, 86, 1);
+  --orange-orange-40: rgba(254, 204, 123, 1);
+  --orange-orange-30: rgba(254, 220, 166, 1);
+  --orange-orange-20: rgba(251, 235, 208, 1);
+  --orange-orange-10: rgba(255, 246, 230, 1);
+  --yellow-yellow-100: rgba(43, 43, 11, 1);
+  --yellow-yellow-90: rgba(78, 77, 13, 1);
+  --yellow-yellow-80: rgba(119, 118, 28, 1);
+  --yellow-yellow-70: rgba(162, 163, 43, 1);
+  --yellow-yellow-60: rgba(245, 243, 54, 1);
+  --yellow-yellow-50: rgba(251, 249, 91, 1);
+  --yellow-yellow-40: rgba(255, 253, 126, 1);
+  --yellow-yellow-30: rgba(255, 254, 168, 1);
+  --yellow-yellow-20: rgba(252, 251, 209, 1);
+  --yellow-yellow-10: rgba(255, 255, 241, 1);
+  --grey-hover-10: rgba(225, 229, 234, 1);
+  --grey-hover-20: rgba(195, 200, 208, 1);
+  --grey-hover-30: rgba(170, 174, 182, 1);
+  --grey-hover-40: rgba(143, 150, 158, 1);
+  --grey-hover-50: rgba(115, 123, 130, 1);
+  --grey-hover-60: rgba(96, 102, 108, 1);
+  --grey-hover-70: rgba(91, 97, 103, 1);
+  --grey-hover-80: rgba(71, 77, 82, 1);
+  --grey-hover-90: rgba(48, 54, 59, 1);
+  --grey-hover-100: rgba(39, 44, 48, 1);
+  --grey-plain-grey-plain-100: rgba(23, 23, 23, 1);
+  --grey-plain-grey-plain-90: rgba(38, 38, 38, 1);
+  --grey-plain-grey-plain-80: rgba(56, 56, 56, 1);
+  --grey-plain-grey-plain-60: rgba(112, 112, 112, 1);
+  --grey-plain-grey-plain-70: rgba(82, 82, 82, 1);
+  --grey-plain-grey-plain-50: rgba(140, 140, 140, 1);
+  --grey-plain-grey-plain-40: rgba(168, 168, 168, 1);
+  --grey-plain-grey-plain-30: rgba(199, 199, 199, 1);
+  --grey-plain-grey-plain-20: rgba(224, 224, 224, 1);
+  --grey-plain-grey-plain-10: rgba(245, 245, 245, 1);
+  --grey-plain-hover-grey-plain-hover-100: rgba(33, 33, 33, 1);
+  --grey-plain-hover-grey-plain-hover-90: rgba(48, 48, 48, 1);
+  --grey-plain-hover-grey-plain-hover-80: rgba(66, 66, 66, 1);
+  --grey-plain-hover-grey-plain-hover-70: rgba(92, 92, 92, 1);
+  --grey-plain-hover-grey-plain-hover-60: rgba(105, 105, 105, 1);
+  --grey-plain-hover-grey-plain-hover-50: rgba(133, 133, 133, 1);
+  --grey-plain-hover-grey-plain-hover-40: rgba(158, 158, 158, 1);
+  --grey-plain-hover-grey-plain-hover-30: rgba(186, 186, 186, 1);
+  --grey-plain-hover-grey-plain-hover-20: rgba(212, 212, 212, 1);
+  --grey-plain-hover-grey-plain-hover-10: rgba(229, 229, 229, 1);
+  --theme-default-core-ui-background: rgba(255, 255, 255, 1); /* Default page background */
+  --theme-default-core-interactive-01: rgba(16, 100, 254, 1); /* Default page background */
+  --theme-default-core-interactive-02: rgba(53, 59, 65, 1); /* Default page background */
+  --theme-default-core-interactive-03: rgba(16, 100, 254, 1); /* Default page background */
+  --theme-default-core-interactive-04: rgba(16, 100, 254, 1); /* Default page background */
+  --theme-default-core-danger: rgba(216, 34, 46, 1); /* Default page background */
+  --theme-default-core-ui-01: rgba(242, 244, 248, 1); /* Default page background */
+  --theme-default-core-ui-02: rgba(255, 255, 255, 1); /* Default page background */
+  --theme-default-core-ui-03: rgba(220, 224, 229, 1); /* Default page background */
+  --theme-default-core-ui-04: rgba(140, 140, 140, 1); /* Default page background */
+  --theme-default-core-ui-05: rgba(17, 21, 24, 1); /* Default page background */
+  --theme-default-core-text-01: rgba(17, 21, 24, 1); /* Default page background */
+  --theme-default-core-text-02: rgba(105, 112, 119, 1); /* Default page background */
+  --theme-default-core-text-03: rgba(161, 168, 175, 1); /* Default page background */
+  --theme-default-core-text-04: rgba(255, 255, 255, 1); /* Default page background */
+  --theme-default-core-text-05: rgba(112, 112, 112, 1); /* Default page background */
+  --theme-default-core-text-error: rgba(220, 30, 39, 1); /* Default page background */
+  --theme-default-core-link-01: rgba(16, 100, 254, 1); /* Default page background */
+  --theme-default-core-inverse-link: rgba(122, 171, 255, 1); /* Default page background */
+  --theme-default-core-icon-01: rgba(23, 23, 23, 1); /* Default page background */
+  --theme-default-core-icon-02: rgba(82, 82, 82, 1); /* Default page background */
+  --theme-default-core-icon-03: rgba(255, 255, 255, 1); /* Default page background */
+  --theme-default-core-field-01: rgba(245, 245, 245, 1); /* Default page background */
+  --theme-default-core-field-02: rgba(255, 255, 255, 1); /* Default page background */
+  --theme-default-core-inverse-01: rgba(255, 255, 255, 1); /* Default page background */
+  --theme-default-core-inverse-02: rgba(56, 56, 56, 1); /* Default page background */
+  --theme-default-core-support-01: rgba(220, 30, 39, 1); /* Default page background */
+  --theme-default-core-support-02: rgba(56, 56, 56, 1); /* Default page background */
+  --theme-default-core-support-03: rgba(251, 187, 75, 1); /* Default page background */
+  --theme-default-core-support-04: rgba(0, 68, 204, 1); /* Default page background */
+  --theme-default-core-inverse-support-01: rgba(250, 76, 85, 1); /* Default page background */
+  --theme-default-core-inverse-support-02: rgba(65, 190, 100, 1); /* Default page background */
+  --theme-default-core-inverse-support-03: rgba(255, 205, 117, 1); /* Default page background */
+  --theme-default-core-inverse-support-04: rgba(71, 139, 255, 1); /* Default page background */
+  --theme-default-core-overlay-01: rgba(23, 23, 23, 0.7); /* Default page background */
+  --theme-default-core-button-separator: rgba(220, 224, 229, 1); /* Default page background */
+  --theme-default-core-decorative-01: rgba(220, 224, 229, 1); /* Default page background */
+  --theme-default-interaction-focus: rgba(16, 100, 254, 1); /* Default page background */
+  --theme-default-interaction-inverse-focus-ui: rgba(255, 255, 255, 1); /* Default page background */
+  --theme-default-interaction-hover-primary: rgba(0, 45, 158, 1); /* Default page background */
+  --theme-default-interaction-hover-primary-text: rgba(168, 202, 255, 1); /* Default page background */
+  --theme-default-interaction-hover-secondary: rgba(0, 68, 204, 1); /* Default page background */
+  --theme-default-interaction-hover-standard: rgba(105, 105, 105, 1); /* Default page background */
+  --theme-default-interaction-hover-ui: rgba(66, 66, 66, 1); /* Default page background */
+  --theme-default-interaction-hover-selected-ui: rgba(92, 92, 92, 1); /* Default page background */
+  --theme-default-interaction-hover-danger: rgba(163, 25, 32, 1); /* Default page background */
+  --theme-default-interaction-hover-row: rgba(66, 66, 66, 1); /* Default page background */
+  --theme-default-interaction-inverse-hover-ui: rgba(229, 229, 229, 1); /* Default page background */
+  --theme-default-interaction-active-primary: rgba(0, 45, 158, 1); /* Default page background */
+  --theme-default-interaction-active-secondary: rgba(0, 45, 158, 1); /* Default page background */
+  --theme-default-interaction-active-standard: rgba(56, 56, 56, 1); /* Default page background */
+  --theme-default-interaction-active-ui: rgba(112, 112, 112, 1); /* Default page background */
+  --theme-default-interaction-active-danger: rgba(119, 14, 19, 1); /* Default page background */
+  --theme-default-interaction-selected-ui: rgba(224, 224, 224, 1); /* Default page background */
+  --theme-default-interaction-highlight: rgba(209, 227, 255, 1); /* Default page background */
+  --theme-default-interaction-skeleton-01: rgba(66, 66, 66, 1); /* Default page background */
+  --theme-default-interaction-skeleton-02: rgba(82, 82, 82, 1); /* Default page background */
+  --theme-default-interaction-visited-link: rgba(189, 148, 255, 1); /* Default page background */
+  --theme-default-interaction-disabled-01: rgba(224, 224, 224, 1); /* Default page background */
+  --theme-default-interaction-disabled-02: rgba(168, 168, 168, 1); /* Default page background */
+  --theme-default-interaction-disabled-03: rgba(112, 112, 112, 1); /* Default page background */
+  --theme-default-interaction-active-tertiary: rgba(0, 45, 158, 1); /* Default page background */
+  --theme-default-interaction-hover-tertiary: rgba(16, 100, 254, 1); /* Default page background */
   --default-body-short-01-font-size: 14;
-  --default-body-short-01-text-decoration: none;
   --default-body-short-01-font-family: Roboto;
   --default-body-short-01-font-weight: 400;
-  --default-body-short-01-font-style: normal;
-  --default-body-short-01-font-stretch: normal;
-  --default-body-short-01-font-style-old: Regular;
-  --default-body-short-01-letter-spacing: 0;
   --default-body-short-01-line-height: 18;
-  --default-body-short-01-paragraph-indent: 0;
-  --default-body-short-01-paragraph-spacing: 0;
-  --default-body-short-01-text-case: none;
+  --default-body-short-02-font-size: 16;
+  --default-body-short-02-font-family: Roboto;
+  --default-body-short-02-font-weight: 400;
+  --default-body-short-02-line-height: 22;
+  --default-body-long-01-font-size: 14;
+  --default-body-long-01-font-family: Roboto;
+  --default-body-long-01-font-weight: 400;
+  --default-body-long-01-line-height: 20;
+  --default-body-long-02-font-size: 16;
+  --default-body-long-02-font-family: Roboto;
+  --default-body-long-02-font-weight: 400;
+  --default-body-long-02-line-height: 24;
+  --default-heading-01-font-size: 14;
+  --default-heading-01-font-family: Roboto;
+  --default-heading-01-font-weight: 400;
+  --default-heading-01-line-height: 18;
+  --default-heading-02-font-size: 16;
+  --default-heading-02-font-family: Roboto;
+  --default-heading-02-font-weight: 400;
+  --default-heading-02-line-height: 22;
+  --default-heading-03-font-size: 20;
+  --default-heading-03-font-family: Roboto;
+  --default-heading-03-font-weight: 400;
+  --default-heading-03-line-height: 26;
+  --default-heading-04-font-size: 28;
+  --default-heading-04-font-family: Roboto;
+  --default-heading-04-font-weight: 400;
+  --default-heading-04-line-height: 36;
+  --default-heading-05-font-size: 32;
+  --default-heading-05-font-family: Roboto;
+  --default-heading-05-font-weight: 400;
+  --default-heading-05-line-height: 40;
+  --default-heading-06-font-size: 42;
+  --default-heading-06-font-family: Roboto;
+  --default-heading-06-font-weight: 400;
+  --default-heading-06-line-height: 50;
+  --default-heading-07-font-size: 54;
+  --default-heading-07-font-family: Roboto;
+  --default-heading-07-font-weight: 400;
+  --default-heading-07-line-height: 64;
+  --default-caption-01-font-size: 12;
+  --default-caption-01-font-family: Roboto;
+  --default-caption-01-font-weight: 400;
+  --default-caption-01-line-height: 16;
+  --default-label-01-font-size: 12;
+  --default-label-01-font-family: Roboto;
+  --default-label-01-font-weight: 400;
+  --default-label-01-line-height: 16;
+  --default-body-short-01-bold-font-size: 14;
+  --default-body-short-01-bold-font-family: Roboto;
+  --default-body-short-01-bold-font-weight: 500;
+  --default-body-short-01-bold-line-height: 18;
+  --default-body-short-02-bold-font-size: 16;
+  --default-body-short-02-bold-font-family: Roboto;
+  --default-body-short-02-bold-font-weight: 500;
+  --default-body-short-02-bold-line-height: 22;
+  --default-body-long-01-bold-font-size: 14;
+  --default-body-long-01-bold-font-family: Roboto;
+  --default-body-long-01-bold-font-weight: 500;
+  --default-body-long-01-bold-line-height: 20;
+  --default-body-long-02-bold-font-size: 16;
+  --default-body-long-02-bold-font-family: Roboto;
+  --default-body-long-02-bold-font-weight: 500;
+  --default-body-long-02-bold-line-height: 24;
+  --default-caption-01-bold-font-size: 12;
+  --default-caption-01-bold-font-family: Roboto;
+  --default-caption-01-bold-font-weight: 500;
+  --default-caption-01-bold-line-height: 16;
+  --default-code-01-font-size: 12;
+  --default-code-01-font-family: Roboto Mono;
+  --default-code-01-font-weight: 400;
+  --default-code-01-line-height: 16;
+  --default-code-02-font-size: 14;
+  --default-code-02-font-family: Roboto Mono;
+  --default-code-02-font-weight: 400;
+  --default-code-02-line-height: 20;
+  --depth-component-type: dropShadow;
+  --depth-component-radius: 1;
+  --depth-component-color: rgba(0, 0, 0, 0.2);
+  --depth-component-offset-x: 0;
+  --depth-component-offset-y: 1;
+  --depth-component-spread: 0;
+  --depth-temporary-type: dropShadow;
+  --depth-temporary-radius: 3;
+  --depth-temporary-color: rgba(0, 0, 0, 0.2);
+  --depth-temporary-offset-x: 0;
+  --depth-temporary-offset-y: 1;
+  --depth-temporary-spread: 0;
+  --depth-navigation-type: dropShadow;
+  --depth-navigation-radius: 4;
+  --depth-navigation-color: rgba(0, 0, 0, 0.2);
+  --depth-navigation-offset-x: 0;
+  --depth-navigation-offset-y: 2;
+  --depth-navigation-spread: 0;
+  --depth-notification-type: dropShadow;
+  --depth-notification-radius: 8;
+  --depth-notification-color: rgba(0, 0, 0, 0.2);
+  --depth-notification-offset-x: 0;
+  --depth-notification-offset-y: 4;
+  --depth-notification-spread: 0;
+  --depth-modal-type: dropShadow;
+  --depth-modal-radius: 12;
+  --depth-modal-color: rgba(0, 0, 0, 0.2);
+  --depth-modal-offset-x: 0;
+  --depth-modal-offset-y: 6;
+  --depth-modal-spread: 0;
 }
