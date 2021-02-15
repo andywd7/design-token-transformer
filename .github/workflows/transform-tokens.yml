@@ -41,7 +41,7 @@ jobs:
         run: 'npm i && npm run transform-tokens'
       # We now store the changes in the repository
       - name: Push new files back to master.
-        uses: mikeal/publish-to-github-action@main
+        uses: mikeal/publish-to-github-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # this parameter is optional and defaults to master but I am using main
