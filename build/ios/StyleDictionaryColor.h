@@ -3,13 +3,15 @@
 // StyleDictionaryColor.h
 //
 // Do not edit directly
-// Generated on Mon, 15 Feb 2021 22:31:33 GMT
+// Generated on Wed, 17 Feb 2021 16:37:56 GMT
 //
 
 #import <UIKit/UIKit.h>
 
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
+Black,
+White,
 GreyGrey100,
 GreyGrey90,
 GreyGrey80,
@@ -20,8 +22,6 @@ GreyGrey40,
 GreyGrey30,
 GreyGrey20,
 GreyGrey10,
-BaseBlack,
-BaseWhite,
 Blue10,
 Blue20,
 Blue30,
@@ -122,26 +122,6 @@ GreyHover70,
 GreyHover80,
 GreyHover90,
 GreyHover100,
-GreyPlainGreyPlain100,
-GreyPlainGreyPlain90,
-GreyPlainGreyPlain80,
-GreyPlainGreyPlain60,
-GreyPlainGreyPlain70,
-GreyPlainGreyPlain50,
-GreyPlainGreyPlain40,
-GreyPlainGreyPlain30,
-GreyPlainGreyPlain20,
-GreyPlainGreyPlain10,
-GreyPlainHoverGreyPlainHover100,
-GreyPlainHoverGreyPlainHover90,
-GreyPlainHoverGreyPlainHover80,
-GreyPlainHoverGreyPlainHover70,
-GreyPlainHoverGreyPlainHover60,
-GreyPlainHoverGreyPlainHover50,
-GreyPlainHoverGreyPlainHover40,
-GreyPlainHoverGreyPlainHover30,
-GreyPlainHoverGreyPlainHover20,
-GreyPlainHoverGreyPlainHover10,
 ThemeDefaultCoreUiBackground,
 ThemeDefaultCoreInteractive01,
 ThemeDefaultCoreInteractive02,

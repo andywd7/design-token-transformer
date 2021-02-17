@@ -1,4 +1,16 @@
 {
+  "black": {
+    "category": "fill",
+    "comment": null,
+    "value": "rgba(0, 0, 0, 1)",
+    "type": "color"
+  },
+  "white": {
+    "category": "fill",
+    "comment": null,
+    "value": "rgba(255, 255, 255, 1)",
+    "type": "color"
+  },
   "grey": {
     "grey-100": {
       "category": "fill",
@@ -58,20 +70,6 @@
       "category": "fill",
       "comment": null,
       "value": "rgba(242, 244, 248, 1)",
-      "type": "color"
-    }
-  },
-  "base": {
-    "black": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(0, 0, 0, 1)",
-      "type": "color"
-    },
-    "white": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(255, 255, 255, 1)",
       "type": "color"
     }
   },
@@ -695,950 +693,886 @@
       "type": "color"
     }
   },
-  "grey-plain": {
-    "grey-plain-100": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(23, 23, 23, 1)",
-      "type": "color"
-    },
-    "grey-plain-90": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(38, 38, 38, 1)",
-      "type": "color"
-    },
-    "grey-plain-80": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(56, 56, 56, 1)",
-      "type": "color"
-    },
-    "grey-plain-60": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(112, 112, 112, 1)",
-      "type": "color"
-    },
-    "grey-plain-70": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(82, 82, 82, 1)",
-      "type": "color"
-    },
-    "grey-plain-50": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(140, 140, 140, 1)",
-      "type": "color"
-    },
-    "grey-plain-40": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(168, 168, 168, 1)",
-      "type": "color"
-    },
-    "grey-plain-30": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(199, 199, 199, 1)",
-      "type": "color"
-    },
-    "grey-plain-20": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(224, 224, 224, 1)",
-      "type": "color"
-    },
-    "grey-plain-10": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(245, 245, 245, 1)",
-      "type": "color"
-    }
-  },
-  "grey-plain-hover": {
-    "grey-plain-hover-100": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(33, 33, 33, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-90": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(48, 48, 48, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-80": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(66, 66, 66, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-70": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(92, 92, 92, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-60": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(105, 105, 105, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-50": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(133, 133, 133, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-40": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(158, 158, 158, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-30": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(186, 186, 186, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-20": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(212, 212, 212, 1)",
-      "type": "color"
-    },
-    "grey-plain-hover-10": {
-      "category": "fill",
-      "comment": null,
-      "value": "rgba(229, 229, 229, 1)",
-      "type": "color"
-    }
-  },
-  "theme-default": {
-    "core": {
-      "ui-background": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
+  "theme": {
+    "default": {
+      "core": {
+        "ui-background": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "interactive-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(16, 100, 254, 1)",
+          "type": "color"
+        },
+        "interactive-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(53, 59, 65, 1)",
+          "type": "color"
+        },
+        "interactive-03": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(16, 100, 254, 1)",
+          "type": "color"
+        },
+        "interactive-04": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(16, 100, 254, 1)",
+          "type": "color"
+        },
+        "danger": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(216, 34, 46, 1)",
+          "type": "color"
+        },
+        "ui-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(242, 244, 248, 1)",
+          "type": "color"
+        },
+        "ui-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "ui-03": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(220, 224, 229, 1)",
+          "type": "color"
+        },
+        "ui-04": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(140, 140, 140, 1)",
+          "type": "color"
+        },
+        "ui-05": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(17, 21, 24, 1)",
+          "type": "color"
+        },
+        "text-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(17, 21, 24, 1)",
+          "type": "color"
+        },
+        "text-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(105, 112, 119, 1)",
+          "type": "color"
+        },
+        "text-03": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(161, 168, 175, 1)",
+          "type": "color"
+        },
+        "text-04": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "text-05": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(112, 112, 112, 1)",
+          "type": "color"
+        },
+        "text-error": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(220, 30, 39, 1)",
+          "type": "color"
+        },
+        "link-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(16, 100, 254, 1)",
+          "type": "color"
+        },
+        "inverse-link": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(122, 171, 255, 1)",
+          "type": "color"
+        },
+        "icon-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(23, 23, 23, 1)",
+          "type": "color"
+        },
+        "icon-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(82, 82, 82, 1)",
+          "type": "color"
+        },
+        "icon-03": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "field-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(245, 245, 245, 1)",
+          "type": "color"
+        },
+        "field-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "inverse-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "inverse-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(56, 56, 56, 1)",
+          "type": "color"
+        },
+        "support-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(220, 30, 39, 1)",
+          "type": "color"
+        },
+        "support-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(56, 56, 56, 1)",
+          "type": "color"
+        },
+        "support-03": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(251, 187, 75, 1)",
+          "type": "color"
+        },
+        "support-04": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(0, 68, 204, 1)",
+          "type": "color"
+        },
+        "inverse-support-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(250, 76, 85, 1)",
+          "type": "color"
+        },
+        "inverse-support-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(65, 190, 100, 1)",
+          "type": "color"
+        },
+        "inverse-support-03": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(255, 205, 117, 1)",
+          "type": "color"
+        },
+        "inverse-support-04": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(71, 139, 255, 1)",
+          "type": "color"
+        },
+        "overlay-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(23, 23, 23, 0.7)",
+          "type": "color"
+        },
+        "$button-separator": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(220, 224, 229, 1)",
+          "type": "color"
+        },
+        "$decorative-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(220, 224, 229, 1)",
+          "type": "color"
+        }
       },
-      "interactive-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(16, 100, 254, 1)",
-        "type": "color"
+      "interaction": {
+        "focus": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(16, 100, 254, 1)",
+          "type": "color"
+        },
+        "inverse-focus-ui": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(255, 255, 255, 1)",
+          "type": "color"
+        },
+        "hover-primary": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(0, 45, 158, 1)",
+          "type": "color"
+        },
+        "hover-primary-text": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(168, 202, 255, 1)",
+          "type": "color"
+        },
+        "hover-secondary": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(0, 68, 204, 1)",
+          "type": "color"
+        },
+        "hover-standard": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(105, 105, 105, 1)",
+          "type": "color"
+        },
+        "hover-ui": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(66, 66, 66, 1)",
+          "type": "color"
+        },
+        "hover-selected-ui": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(92, 92, 92, 1)",
+          "type": "color"
+        },
+        "hover-danger": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(163, 25, 32, 1)",
+          "type": "color"
+        },
+        "hover-row": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(66, 66, 66, 1)",
+          "type": "color"
+        },
+        "inverse-hover-ui": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(229, 229, 229, 1)",
+          "type": "color"
+        },
+        "active-primary": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(0, 45, 158, 1)",
+          "type": "color"
+        },
+        "active-secondary": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(0, 45, 158, 1)",
+          "type": "color"
+        },
+        "active-standard": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(56, 56, 56, 1)",
+          "type": "color"
+        },
+        "active-ui": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(112, 112, 112, 1)",
+          "type": "color"
+        },
+        "active-danger": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(119, 14, 19, 1)",
+          "type": "color"
+        },
+        "selected-ui": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(224, 224, 224, 1)",
+          "type": "color"
+        },
+        "highlight": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(209, 227, 255, 1)",
+          "type": "color"
+        },
+        "skeleton-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(66, 66, 66, 1)",
+          "type": "color"
+        },
+        "skeleton-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(82, 82, 82, 1)",
+          "type": "color"
+        },
+        "visited-link": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(189, 148, 255, 1)",
+          "type": "color"
+        },
+        "disabled-01": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(224, 224, 224, 1)",
+          "type": "color"
+        },
+        "disabled-02": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(168, 168, 168, 1)",
+          "type": "color"
+        },
+        "disabled-03": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(112, 112, 112, 1)",
+          "type": "color"
+        },
+        "active-tertiary": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(0, 45, 158, 1)",
+          "type": "color"
+        },
+        "hover-tertiary": {
+          "category": "fill",
+          "comment": "Default page background",
+          "value": "rgba(16, 100, 254, 1)",
+          "type": "color"
+        }
       },
-      "interactive-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(53, 59, 65, 1)",
-        "type": "color"
-      },
-      "interactive-03": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(16, 100, 254, 1)",
-        "type": "color"
-      },
-      "interactive-04": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(16, 100, 254, 1)",
-        "type": "color"
-      },
-      "danger": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(216, 34, 46, 1)",
-        "type": "color"
-      },
-      "ui-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(242, 244, 248, 1)",
-        "type": "color"
-      },
-      "ui-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "ui-03": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(220, 224, 229, 1)",
-        "type": "color"
-      },
-      "ui-04": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(140, 140, 140, 1)",
-        "type": "color"
-      },
-      "ui-05": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(17, 21, 24, 1)",
-        "type": "color"
-      },
-      "text-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(17, 21, 24, 1)",
-        "type": "color"
-      },
-      "text-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(105, 112, 119, 1)",
-        "type": "color"
-      },
-      "text-03": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(161, 168, 175, 1)",
-        "type": "color"
-      },
-      "text-04": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "text-05": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(112, 112, 112, 1)",
-        "type": "color"
-      },
-      "text-error": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(220, 30, 39, 1)",
-        "type": "color"
-      },
-      "link-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(16, 100, 254, 1)",
-        "type": "color"
-      },
-      "inverse-link": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(122, 171, 255, 1)",
-        "type": "color"
-      },
-      "icon-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(23, 23, 23, 1)",
-        "type": "color"
-      },
-      "icon-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(82, 82, 82, 1)",
-        "type": "color"
-      },
-      "icon-03": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "field-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(245, 245, 245, 1)",
-        "type": "color"
-      },
-      "field-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "inverse-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "inverse-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(56, 56, 56, 1)",
-        "type": "color"
-      },
-      "support-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(220, 30, 39, 1)",
-        "type": "color"
-      },
-      "support-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(56, 56, 56, 1)",
-        "type": "color"
-      },
-      "support-03": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(251, 187, 75, 1)",
-        "type": "color"
-      },
-      "support-04": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(0, 68, 204, 1)",
-        "type": "color"
-      },
-      "inverse-support-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(250, 76, 85, 1)",
-        "type": "color"
-      },
-      "inverse-support-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(65, 190, 100, 1)",
-        "type": "color"
-      },
-      "inverse-support-03": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(255, 205, 117, 1)",
-        "type": "color"
-      },
-      "inverse-support-04": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(71, 139, 255, 1)",
-        "type": "color"
-      },
-      "overlay-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(23, 23, 23, 0.7)",
-        "type": "color"
-      },
-      "$button-separator": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(220, 224, 229, 1)",
-        "type": "color"
-      },
-      "$decorative-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(220, 224, 229, 1)",
-        "type": "color"
-      }
-    },
-    "interaction": {
-      "focus": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(16, 100, 254, 1)",
-        "type": "color"
-      },
-      "inverse-focus-ui": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(255, 255, 255, 1)",
-        "type": "color"
-      },
-      "hover-primary": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(0, 45, 158, 1)",
-        "type": "color"
-      },
-      "hover-primary-text": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(168, 202, 255, 1)",
-        "type": "color"
-      },
-      "hover-secondary": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(0, 68, 204, 1)",
-        "type": "color"
-      },
-      "hover-standard": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(105, 105, 105, 1)",
-        "type": "color"
-      },
-      "hover-ui": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(66, 66, 66, 1)",
-        "type": "color"
-      },
-      "hover-selected-ui": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(92, 92, 92, 1)",
-        "type": "color"
-      },
-      "hover-danger": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(163, 25, 32, 1)",
-        "type": "color"
-      },
-      "hover-row": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(66, 66, 66, 1)",
-        "type": "color"
-      },
-      "inverse-hover-ui": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(229, 229, 229, 1)",
-        "type": "color"
-      },
-      "active-primary": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(0, 45, 158, 1)",
-        "type": "color"
-      },
-      "active-secondary": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(0, 45, 158, 1)",
-        "type": "color"
-      },
-      "active-standard": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(56, 56, 56, 1)",
-        "type": "color"
-      },
-      "active-ui": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(112, 112, 112, 1)",
-        "type": "color"
-      },
-      "active-danger": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(119, 14, 19, 1)",
-        "type": "color"
-      },
-      "selected-ui": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(224, 224, 224, 1)",
-        "type": "color"
-      },
-      "highlight": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(209, 227, 255, 1)",
-        "type": "color"
-      },
-      "skeleton-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(66, 66, 66, 1)",
-        "type": "color"
-      },
-      "skeleton-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(82, 82, 82, 1)",
-        "type": "color"
-      },
-      "visited-link": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(189, 148, 255, 1)",
-        "type": "color"
-      },
-      "disabled-01": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(224, 224, 224, 1)",
-        "type": "color"
-      },
-      "disabled-02": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(168, 168, 168, 1)",
-        "type": "color"
-      },
-      "disabled-03": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(112, 112, 112, 1)",
-        "type": "color"
-      },
-      "active-tertiary": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(0, 45, 158, 1)",
-        "type": "color"
-      },
-      "hover-tertiary": {
-        "category": "fill",
-        "comment": "Default page background",
-        "value": "rgba(16, 100, 254, 1)",
-        "type": "color"
-      }
-    }
-  },
-  "default": {
-    "body-short-01": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 14,
+      "label-01": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 12,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixels"
+        },
+        "value": 16,
         "type": "number",
-        "unit": "pixel"
+        "unit": "pixels"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "body-short-01": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 14,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 18,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 18,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "body-short-02": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 16,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "body-short-02": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 22,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 22,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "body-long-01": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 14,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "body-long-01": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 14,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 20,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "body-long-02": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 16,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "body-long-02": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 24,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 24,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "heading-01": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 14,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "heading-01": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 14,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 18,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 18,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "heading-02": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 16,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "heading-02": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 22,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 22,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "heading-03": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 20,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "heading-03": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 26,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 26,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "heading-04": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 28,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "heading-04": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 28,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 36,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 36,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "heading-05": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 32,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "heading-05": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 32,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 40,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 40,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "heading-06": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 42,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "heading-06": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 42,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 50,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 50,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "heading-07": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 54,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "heading-07": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 54,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 64,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 64,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "caption-01": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 12,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "caption-01": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 12,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 16,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "label-01": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 12,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
-        "value": 16,
-        "type": "number",
-        "unit": "pixels"
-      }
-    },
-    "body-short-01-bold": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 14,
-        "type": "number",
-        "unit": "pixel"
-      },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 500,
-        "type": "number"
-      },
-      "lineHeight": {
+      "body-short-01-bold": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 14,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 18,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 18,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "body-short-02-bold": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 16,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 500,
-        "type": "number"
-      },
-      "lineHeight": {
+      "body-short-02-bold": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 22,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 22,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "body-long-01-bold": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 14,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 500,
-        "type": "number"
-      },
-      "lineHeight": {
+      "body-long-01-bold": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 14,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 20,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "body-long-02-bold": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 16,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 500,
-        "type": "number"
-      },
-      "lineHeight": {
+      "body-long-02-bold": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 24,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 24,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "caption-01-bold": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 12,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 500,
-        "type": "number"
-      },
-      "lineHeight": {
+      "caption-01-bold": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 12,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 16,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "code-01": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 12,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto Mono",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "code-01": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 12,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto Mono",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 16,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 16,
         "type": "number",
         "unit": "pixels"
-      }
-    },
-    "code-02": {
-      "category": "font",
-      "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
-      "fontSize": {
-        "value": 14,
-        "type": "number",
-        "unit": "pixel"
       },
-      "fontFamily": {
-        "value": "Roboto Mono",
-        "type": "string"
-      },
-      "fontWeight": {
-        "value": 400,
-        "type": "number"
-      },
-      "lineHeight": {
+      "code-02": {
+        "category": "font",
+        "comment": "This is for short paragraphs with no more than 4 lines and is commonly used in components.",
+        "fontSize": {
+          "value": 14,
+          "type": "number",
+          "unit": "pixel"
+        },
+        "fontFamily": {
+          "value": "Roboto Mono",
+          "type": "string"
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "number"
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "number",
+          "unit": "pixels"
+        },
         "value": 20,
         "type": "number",
         "unit": "pixels"

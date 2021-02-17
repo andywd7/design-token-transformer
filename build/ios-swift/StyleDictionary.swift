@@ -3,15 +3,14 @@
 // StyleDictionary.swift
 //
 // Do not edit directly
-// Generated on Mon, 15 Feb 2021 22:31:33 GMT
+// Generated on Wed, 17 Feb 2021 16:37:56 GMT
 //
 
 
 import UIKit
 
 public class StyleDictionary {
-    public static let baseBlack = rgba(0, 0, 0, 1)
-    public static let baseWhite = rgba(255, 255, 255, 1)
+    public static let black = rgba(0, 0, 0, 1)
     public static let blue10 = rgba(235, 244, 255, 1)
     public static let blue100 = rgba(0, 18, 66, 1)
     public static let blue20 = rgba(209, 227, 255, 1)
@@ -32,86 +31,6 @@ public class StyleDictionary {
     public static let cyanCyan70 = rgba(13, 75, 141, 1)
     public static let cyanCyan80 = rgba(6, 52, 97, 1)
     public static let cyanCyan90 = rgba(4, 35, 63, 1)
-    public static let defaultBodyLong01BoldFontFamily = Roboto
-    public static let defaultBodyLong01BoldFontSize = 14
-    public static let defaultBodyLong01BoldFontWeight = 500
-    public static let defaultBodyLong01BoldLineHeight = 20
-    public static let defaultBodyLong01FontFamily = Roboto
-    public static let defaultBodyLong01FontSize = 14
-    public static let defaultBodyLong01FontWeight = 400
-    public static let defaultBodyLong01LineHeight = 20
-    public static let defaultBodyLong02BoldFontFamily = Roboto
-    public static let defaultBodyLong02BoldFontSize = 16
-    public static let defaultBodyLong02BoldFontWeight = 500
-    public static let defaultBodyLong02BoldLineHeight = 24
-    public static let defaultBodyLong02FontFamily = Roboto
-    public static let defaultBodyLong02FontSize = 16
-    public static let defaultBodyLong02FontWeight = 400
-    public static let defaultBodyLong02LineHeight = 24
-    public static let defaultBodyShort01BoldFontFamily = Roboto
-    public static let defaultBodyShort01BoldFontSize = 14
-    public static let defaultBodyShort01BoldFontWeight = 500
-    public static let defaultBodyShort01BoldLineHeight = 18
-    public static let defaultBodyShort01FontFamily = Roboto
-    public static let defaultBodyShort01FontSize = 14
-    public static let defaultBodyShort01FontWeight = 400
-    public static let defaultBodyShort01LineHeight = 18
-    public static let defaultBodyShort02BoldFontFamily = Roboto
-    public static let defaultBodyShort02BoldFontSize = 16
-    public static let defaultBodyShort02BoldFontWeight = 500
-    public static let defaultBodyShort02BoldLineHeight = 22
-    public static let defaultBodyShort02FontFamily = Roboto
-    public static let defaultBodyShort02FontSize = 16
-    public static let defaultBodyShort02FontWeight = 400
-    public static let defaultBodyShort02LineHeight = 22
-    public static let defaultCaption01BoldFontFamily = Roboto
-    public static let defaultCaption01BoldFontSize = 12
-    public static let defaultCaption01BoldFontWeight = 500
-    public static let defaultCaption01BoldLineHeight = 16
-    public static let defaultCaption01FontFamily = Roboto
-    public static let defaultCaption01FontSize = 12
-    public static let defaultCaption01FontWeight = 400
-    public static let defaultCaption01LineHeight = 16
-    public static let defaultCode01FontFamily = Roboto Mono
-    public static let defaultCode01FontSize = 12
-    public static let defaultCode01FontWeight = 400
-    public static let defaultCode01LineHeight = 16
-    public static let defaultCode02FontFamily = Roboto Mono
-    public static let defaultCode02FontSize = 14
-    public static let defaultCode02FontWeight = 400
-    public static let defaultCode02LineHeight = 20
-    public static let defaultHeading01FontFamily = Roboto
-    public static let defaultHeading01FontSize = 14
-    public static let defaultHeading01FontWeight = 400
-    public static let defaultHeading01LineHeight = 18
-    public static let defaultHeading02FontFamily = Roboto
-    public static let defaultHeading02FontSize = 16
-    public static let defaultHeading02FontWeight = 400
-    public static let defaultHeading02LineHeight = 22
-    public static let defaultHeading03FontFamily = Roboto
-    public static let defaultHeading03FontSize = 20
-    public static let defaultHeading03FontWeight = 400
-    public static let defaultHeading03LineHeight = 26
-    public static let defaultHeading04FontFamily = Roboto
-    public static let defaultHeading04FontSize = 28
-    public static let defaultHeading04FontWeight = 400
-    public static let defaultHeading04LineHeight = 36
-    public static let defaultHeading05FontFamily = Roboto
-    public static let defaultHeading05FontSize = 32
-    public static let defaultHeading05FontWeight = 400
-    public static let defaultHeading05LineHeight = 40
-    public static let defaultHeading06FontFamily = Roboto
-    public static let defaultHeading06FontSize = 42
-    public static let defaultHeading06FontWeight = 400
-    public static let defaultHeading06LineHeight = 50
-    public static let defaultHeading07FontFamily = Roboto
-    public static let defaultHeading07FontSize = 54
-    public static let defaultHeading07FontWeight = 400
-    public static let defaultHeading07LineHeight = 64
-    public static let defaultLabel01FontFamily = Roboto
-    public static let defaultLabel01FontSize = 12
-    public static let defaultLabel01FontWeight = 400
-    public static let defaultLabel01LineHeight = 16
     public static let depthComponentColor = rgba(0, 0, 0, 0.2)
     public static let depthComponentOffsetX = 0
     public static let depthComponentOffsetY = 1
@@ -162,26 +81,6 @@ public class StyleDictionary {
     public static let greyHover70 = rgba(91, 97, 103, 1)
     public static let greyHover80 = rgba(71, 77, 82, 1)
     public static let greyHover90 = rgba(48, 54, 59, 1)
-    public static let greyPlainHoverGreyPlainHover10 = rgba(229, 229, 229, 1)
-    public static let greyPlainHoverGreyPlainHover100 = rgba(33, 33, 33, 1)
-    public static let greyPlainHoverGreyPlainHover20 = rgba(212, 212, 212, 1)
-    public static let greyPlainHoverGreyPlainHover30 = rgba(186, 186, 186, 1)
-    public static let greyPlainHoverGreyPlainHover40 = rgba(158, 158, 158, 1)
-    public static let greyPlainHoverGreyPlainHover50 = rgba(133, 133, 133, 1)
-    public static let greyPlainHoverGreyPlainHover60 = rgba(105, 105, 105, 1)
-    public static let greyPlainHoverGreyPlainHover70 = rgba(92, 92, 92, 1)
-    public static let greyPlainHoverGreyPlainHover80 = rgba(66, 66, 66, 1)
-    public static let greyPlainHoverGreyPlainHover90 = rgba(48, 48, 48, 1)
-    public static let greyPlainGreyPlain10 = rgba(245, 245, 245, 1)
-    public static let greyPlainGreyPlain100 = rgba(23, 23, 23, 1)
-    public static let greyPlainGreyPlain20 = rgba(224, 224, 224, 1)
-    public static let greyPlainGreyPlain30 = rgba(199, 199, 199, 1)
-    public static let greyPlainGreyPlain40 = rgba(168, 168, 168, 1)
-    public static let greyPlainGreyPlain50 = rgba(140, 140, 140, 1)
-    public static let greyPlainGreyPlain60 = rgba(112, 112, 112, 1)
-    public static let greyPlainGreyPlain70 = rgba(82, 82, 82, 1)
-    public static let greyPlainGreyPlain80 = rgba(56, 56, 56, 1)
-    public static let greyPlainGreyPlain90 = rgba(38, 38, 38, 1)
     public static let greyGrey10 = rgba(242, 244, 248, 1)
     public static let greyGrey100 = rgba(18, 22, 25, 1)
     public static let greyGrey20 = rgba(221, 225, 230, 1)
@@ -242,6 +141,18 @@ public class StyleDictionary {
     public static let tealTeal70 = rgba(0, 93, 93, 1)
     public static let tealTeal80 = rgba(0, 65, 68, 1)
     public static let tealTeal90 = rgba(2, 43, 48, 1)
+    public static let themeDefaultBodyLong01 = 20
+    public static let themeDefaultBodyLong01Bold = 20
+    public static let themeDefaultBodyLong02 = 24
+    public static let themeDefaultBodyLong02Bold = 24
+    public static let themeDefaultBodyShort01 = 18
+    public static let themeDefaultBodyShort01Bold = 18
+    public static let themeDefaultBodyShort02 = 22
+    public static let themeDefaultBodyShort02Bold = 22
+    public static let themeDefaultCaption01 = 16
+    public static let themeDefaultCaption01Bold = 16
+    public static let themeDefaultCode01 = 16
+    public static let themeDefaultCode02 = 20
     public static let themeDefaultCoreButtonSeparator = rgba(220, 224, 229, 1)
     public static let themeDefaultCoreDanger = rgba(216, 34, 46, 1)
     public static let themeDefaultCoreDecorative01 = rgba(220, 224, 229, 1)
@@ -279,6 +190,13 @@ public class StyleDictionary {
     public static let themeDefaultCoreUi04 = rgba(140, 140, 140, 1)
     public static let themeDefaultCoreUi05 = rgba(17, 21, 24, 1)
     public static let themeDefaultCoreUiBackground = rgba(255, 255, 255, 1)
+    public static let themeDefaultHeading01 = 18
+    public static let themeDefaultHeading02 = 22
+    public static let themeDefaultHeading03 = 26
+    public static let themeDefaultHeading04 = 36
+    public static let themeDefaultHeading05 = 40
+    public static let themeDefaultHeading06 = 50
+    public static let themeDefaultHeading07 = 64
     public static let themeDefaultInteractionActiveDanger = rgba(119, 14, 19, 1)
     public static let themeDefaultInteractionActivePrimary = rgba(0, 45, 158, 1)
     public static let themeDefaultInteractionActiveSecondary = rgba(0, 45, 158, 1)
@@ -305,6 +223,8 @@ public class StyleDictionary {
     public static let themeDefaultInteractionSkeleton01 = rgba(66, 66, 66, 1)
     public static let themeDefaultInteractionSkeleton02 = rgba(82, 82, 82, 1)
     public static let themeDefaultInteractionVisitedLink = rgba(189, 148, 255, 1)
+    public static let themeDefaultLabel01 = 16
+    public static let white = rgba(255, 255, 255, 1)
     public static let yellowYellow10 = rgba(255, 255, 241, 1)
     public static let yellowYellow100 = rgba(43, 43, 11, 1)
     public static let yellowYellow20 = rgba(252, 251, 209, 1)

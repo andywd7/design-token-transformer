@@ -1,7 +1,9 @@
 
 // Do not edit directly
-// Generated on Mon, 15 Feb 2021 22:31:33 GMT
+// Generated on Wed, 17 Feb 2021 16:37:56 GMT
 
+$black: rgba(0, 0, 0, 1);
+$white: rgba(255, 255, 255, 1);
 $grey-grey-100: rgba(18, 22, 25, 1);
 $grey-grey-90: rgba(33, 39, 42, 1);
 $grey-grey-80: rgba(52, 58, 63, 1);
@@ -12,8 +14,6 @@ $grey-grey-40: rgba(162, 169, 176, 1);
 $grey-grey-30: rgba(193, 199, 205, 1);
 $grey-grey-20: rgba(221, 225, 230, 1);
 $grey-grey-10: rgba(242, 244, 248, 1);
-$base-black: rgba(0, 0, 0, 1);
-$base-white: rgba(255, 255, 255, 1);
 $blue-10: rgba(235, 244, 255, 1);
 $blue-20: rgba(209, 227, 255, 1);
 $blue-30: rgba(168, 202, 255, 1);
@@ -114,26 +114,6 @@ $grey-hover-70: rgba(91, 97, 103, 1);
 $grey-hover-80: rgba(71, 77, 82, 1);
 $grey-hover-90: rgba(48, 54, 59, 1);
 $grey-hover-100: rgba(39, 44, 48, 1);
-$grey-plain-grey-plain-100: rgba(23, 23, 23, 1);
-$grey-plain-grey-plain-90: rgba(38, 38, 38, 1);
-$grey-plain-grey-plain-80: rgba(56, 56, 56, 1);
-$grey-plain-grey-plain-60: rgba(112, 112, 112, 1);
-$grey-plain-grey-plain-70: rgba(82, 82, 82, 1);
-$grey-plain-grey-plain-50: rgba(140, 140, 140, 1);
-$grey-plain-grey-plain-40: rgba(168, 168, 168, 1);
-$grey-plain-grey-plain-30: rgba(199, 199, 199, 1);
-$grey-plain-grey-plain-20: rgba(224, 224, 224, 1);
-$grey-plain-grey-plain-10: rgba(245, 245, 245, 1);
-$grey-plain-hover-grey-plain-hover-100: rgba(33, 33, 33, 1);
-$grey-plain-hover-grey-plain-hover-90: rgba(48, 48, 48, 1);
-$grey-plain-hover-grey-plain-hover-80: rgba(66, 66, 66, 1);
-$grey-plain-hover-grey-plain-hover-70: rgba(92, 92, 92, 1);
-$grey-plain-hover-grey-plain-hover-60: rgba(105, 105, 105, 1);
-$grey-plain-hover-grey-plain-hover-50: rgba(133, 133, 133, 1);
-$grey-plain-hover-grey-plain-hover-40: rgba(158, 158, 158, 1);
-$grey-plain-hover-grey-plain-hover-30: rgba(186, 186, 186, 1);
-$grey-plain-hover-grey-plain-hover-20: rgba(212, 212, 212, 1);
-$grey-plain-hover-grey-plain-hover-10: rgba(229, 229, 229, 1);
 $theme-default-core-ui-background: rgba(255, 255, 255, 1); // Default page background
 $theme-default-core-interactive-01: rgba(16, 100, 254, 1); // Default page background
 $theme-default-core-interactive-02: rgba(53, 59, 65, 1); // Default page background
@@ -197,86 +177,26 @@ $theme-default-interaction-disabled-02: rgba(168, 168, 168, 1); // Default page 
 $theme-default-interaction-disabled-03: rgba(112, 112, 112, 1); // Default page background
 $theme-default-interaction-active-tertiary: rgba(0, 45, 158, 1); // Default page background
 $theme-default-interaction-hover-tertiary: rgba(16, 100, 254, 1); // Default page background
-$default-body-short-01-font-size: 14;
-$default-body-short-01-font-family: Roboto;
-$default-body-short-01-font-weight: 400;
-$default-body-short-01-line-height: 18;
-$default-body-short-02-font-size: 16;
-$default-body-short-02-font-family: Roboto;
-$default-body-short-02-font-weight: 400;
-$default-body-short-02-line-height: 22;
-$default-body-long-01-font-size: 14;
-$default-body-long-01-font-family: Roboto;
-$default-body-long-01-font-weight: 400;
-$default-body-long-01-line-height: 20;
-$default-body-long-02-font-size: 16;
-$default-body-long-02-font-family: Roboto;
-$default-body-long-02-font-weight: 400;
-$default-body-long-02-line-height: 24;
-$default-heading-01-font-size: 14;
-$default-heading-01-font-family: Roboto;
-$default-heading-01-font-weight: 400;
-$default-heading-01-line-height: 18;
-$default-heading-02-font-size: 16;
-$default-heading-02-font-family: Roboto;
-$default-heading-02-font-weight: 400;
-$default-heading-02-line-height: 22;
-$default-heading-03-font-size: 20;
-$default-heading-03-font-family: Roboto;
-$default-heading-03-font-weight: 400;
-$default-heading-03-line-height: 26;
-$default-heading-04-font-size: 28;
-$default-heading-04-font-family: Roboto;
-$default-heading-04-font-weight: 400;
-$default-heading-04-line-height: 36;
-$default-heading-05-font-size: 32;
-$default-heading-05-font-family: Roboto;
-$default-heading-05-font-weight: 400;
-$default-heading-05-line-height: 40;
-$default-heading-06-font-size: 42;
-$default-heading-06-font-family: Roboto;
-$default-heading-06-font-weight: 400;
-$default-heading-06-line-height: 50;
-$default-heading-07-font-size: 54;
-$default-heading-07-font-family: Roboto;
-$default-heading-07-font-weight: 400;
-$default-heading-07-line-height: 64;
-$default-caption-01-font-size: 12;
-$default-caption-01-font-family: Roboto;
-$default-caption-01-font-weight: 400;
-$default-caption-01-line-height: 16;
-$default-label-01-font-size: 12;
-$default-label-01-font-family: Roboto;
-$default-label-01-font-weight: 400;
-$default-label-01-line-height: 16;
-$default-body-short-01-bold-font-size: 14;
-$default-body-short-01-bold-font-family: Roboto;
-$default-body-short-01-bold-font-weight: 500;
-$default-body-short-01-bold-line-height: 18;
-$default-body-short-02-bold-font-size: 16;
-$default-body-short-02-bold-font-family: Roboto;
-$default-body-short-02-bold-font-weight: 500;
-$default-body-short-02-bold-line-height: 22;
-$default-body-long-01-bold-font-size: 14;
-$default-body-long-01-bold-font-family: Roboto;
-$default-body-long-01-bold-font-weight: 500;
-$default-body-long-01-bold-line-height: 20;
-$default-body-long-02-bold-font-size: 16;
-$default-body-long-02-bold-font-family: Roboto;
-$default-body-long-02-bold-font-weight: 500;
-$default-body-long-02-bold-line-height: 24;
-$default-caption-01-bold-font-size: 12;
-$default-caption-01-bold-font-family: Roboto;
-$default-caption-01-bold-font-weight: 500;
-$default-caption-01-bold-line-height: 16;
-$default-code-01-font-size: 12;
-$default-code-01-font-family: Roboto Mono;
-$default-code-01-font-weight: 400;
-$default-code-01-line-height: 16;
-$default-code-02-font-size: 14;
-$default-code-02-font-family: Roboto Mono;
-$default-code-02-font-weight: 400;
-$default-code-02-line-height: 20;
+$theme-default-label-01: 16; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-body-short-01: 18; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-body-short-02: 22; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-body-long-01: 20; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-body-long-02: 24; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-heading-01: 18; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-heading-02: 22; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-heading-03: 26; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-heading-04: 36; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-heading-05: 40; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-heading-06: 50; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-heading-07: 64; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-caption-01: 16; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-body-short-01-bold: 18; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-body-short-02-bold: 22; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-body-long-01-bold: 20; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-body-long-02-bold: 24; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-caption-01-bold: 16; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-code-01: 16; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
+$theme-default-code-02: 20; // This is for short paragraphs with no more than 4 lines and is commonly used in components.
 $depth-component-type: dropShadow;
 $depth-component-radius: 1;
 $depth-component-color: rgba(0, 0, 0, 0.2);

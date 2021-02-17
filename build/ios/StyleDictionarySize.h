@@ -2,73 +2,33 @@
 // StyleDictionarySize.h
 //
 // Do not edit directly
-// Generated on Mon, 15 Feb 2021 22:31:33 GMT
+// Generated on Wed, 17 Feb 2021 16:37:56 GMT
 //
 
 #import <Foundation/Foundation.h>
 
 
 
-extern float const DefaultBodyShort01FontSize;
-extern float const DefaultBodyShort01FontWeight;
-extern float const DefaultBodyShort01LineHeight;
-extern float const DefaultBodyShort02FontSize;
-extern float const DefaultBodyShort02FontWeight;
-extern float const DefaultBodyShort02LineHeight;
-extern float const DefaultBodyLong01FontSize;
-extern float const DefaultBodyLong01FontWeight;
-extern float const DefaultBodyLong01LineHeight;
-extern float const DefaultBodyLong02FontSize;
-extern float const DefaultBodyLong02FontWeight;
-extern float const DefaultBodyLong02LineHeight;
-extern float const DefaultHeading01FontSize;
-extern float const DefaultHeading01FontWeight;
-extern float const DefaultHeading01LineHeight;
-extern float const DefaultHeading02FontSize;
-extern float const DefaultHeading02FontWeight;
-extern float const DefaultHeading02LineHeight;
-extern float const DefaultHeading03FontSize;
-extern float const DefaultHeading03FontWeight;
-extern float const DefaultHeading03LineHeight;
-extern float const DefaultHeading04FontSize;
-extern float const DefaultHeading04FontWeight;
-extern float const DefaultHeading04LineHeight;
-extern float const DefaultHeading05FontSize;
-extern float const DefaultHeading05FontWeight;
-extern float const DefaultHeading05LineHeight;
-extern float const DefaultHeading06FontSize;
-extern float const DefaultHeading06FontWeight;
-extern float const DefaultHeading06LineHeight;
-extern float const DefaultHeading07FontSize;
-extern float const DefaultHeading07FontWeight;
-extern float const DefaultHeading07LineHeight;
-extern float const DefaultCaption01FontSize;
-extern float const DefaultCaption01FontWeight;
-extern float const DefaultCaption01LineHeight;
-extern float const DefaultLabel01FontSize;
-extern float const DefaultLabel01FontWeight;
-extern float const DefaultLabel01LineHeight;
-extern float const DefaultBodyShort01BoldFontSize;
-extern float const DefaultBodyShort01BoldFontWeight;
-extern float const DefaultBodyShort01BoldLineHeight;
-extern float const DefaultBodyShort02BoldFontSize;
-extern float const DefaultBodyShort02BoldFontWeight;
-extern float const DefaultBodyShort02BoldLineHeight;
-extern float const DefaultBodyLong01BoldFontSize;
-extern float const DefaultBodyLong01BoldFontWeight;
-extern float const DefaultBodyLong01BoldLineHeight;
-extern float const DefaultBodyLong02BoldFontSize;
-extern float const DefaultBodyLong02BoldFontWeight;
-extern float const DefaultBodyLong02BoldLineHeight;
-extern float const DefaultCaption01BoldFontSize;
-extern float const DefaultCaption01BoldFontWeight;
-extern float const DefaultCaption01BoldLineHeight;
-extern float const DefaultCode01FontSize;
-extern float const DefaultCode01FontWeight;
-extern float const DefaultCode01LineHeight;
-extern float const DefaultCode02FontSize;
-extern float const DefaultCode02FontWeight;
-extern float const DefaultCode02LineHeight;
+extern float const ThemeDefaultLabel01;
+extern float const ThemeDefaultBodyShort01;
+extern float const ThemeDefaultBodyShort02;
+extern float const ThemeDefaultBodyLong01;
+extern float const ThemeDefaultBodyLong02;
+extern float const ThemeDefaultHeading01;
+extern float const ThemeDefaultHeading02;
+extern float const ThemeDefaultHeading03;
+extern float const ThemeDefaultHeading04;
+extern float const ThemeDefaultHeading05;
+extern float const ThemeDefaultHeading06;
+extern float const ThemeDefaultHeading07;
+extern float const ThemeDefaultCaption01;
+extern float const ThemeDefaultBodyShort01Bold;
+extern float const ThemeDefaultBodyShort02Bold;
+extern float const ThemeDefaultBodyLong01Bold;
+extern float const ThemeDefaultBodyLong02Bold;
+extern float const ThemeDefaultCaption01Bold;
+extern float const ThemeDefaultCode01;
+extern float const ThemeDefaultCode02;
 extern float const DepthComponentRadius;
 extern float const DepthComponentOffsetX;
 extern float const DepthComponentOffsetY;
